@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text1: linear-gradient(126deg, rgba(45, 65, 104, 1) 0%, rgba(180, 33, 33, 1) 100%);
+  --gradient-text2: linear-gradient(126deg, #D2B000 40%, #EC5959 60%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-button: linear-gradient(126deg, rgba(45, 65, 104, 1) 0%, rgba(180, 33, 33, 1) 100%);
+  --gradient-section-background: linear-gradient(126deg, #2D4168 0%, #5880CE 100%);
+
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #FFEAD6;
+  --color-subtext: #FF8A71;
+}

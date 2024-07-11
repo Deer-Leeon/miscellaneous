@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+.App a {
+    color: unset;
+    text-decoration: none;
+}
+
+.gradient__bg {
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 3% 25%, rgba(206, 117, 34, 1) 0%, rgba(42, 89, 208, 1) 100%);
+}
+  
+.gradient__text1 {
+background: var(--gradient-text1);
+background-clip: text;
+-webkit-background-clop: text;
+-webkit-text-fill-color: transparent;
+}
+
+.gradient__text2 {
+    background: var(--gradient-text2);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+.gradient__button {
+    background: var(--gradient-button);
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: var(--gradient-button);
+    }
+
+.gradient__section-background {
+    background: var(--gradient-section-background);
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: var(--gradient-section-background);
+    }
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+    
+    .section__margin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+    
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+}
